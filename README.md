@@ -9,15 +9,15 @@ A 4-bit Shift Register was designed and implemented as part of the Tiny Tapeout 
 
 ## Input's and Output's
 The shift register has:
-•	Inputs:
-  o	clk → Clock signal
-  o	reset → Clears the register to 0
-  o	load → If 1, loads data directly from parallel_load
-  o	direction → Shift direction (0 = right, 1 = left)
-  o	serial_input → Bit shifted in during shift operations
-  o	parallel_load[3:0] → 4-bit data to load in parallel
-•	Output:
-  o	parallel_out[3:0] → Current value of the shift register
+Inputs:
+  •	clk → Clock signal
+  •	reset → Clears the register to 0
+  •	load → If 1, loads data directly from parallel_load
+  •	direction → Shift direction (0 = right, 1 = left)
+  •	serial_input → Bit shifted in during shift operations
+  •	parallel_load[3:0] → 4-bit data to load in parallel
+Output:
+  •	parallel_out[3:0] → Current value of the shift register
 
 ## Working
 The steps of working are as follows:
@@ -48,23 +48,4 @@ The steps of working are as follows:
 ## Waveforms
 <img width="1919" height="344" alt="Waveform" src="https://github.com/user-attachments/assets/68eb8180-6bab-4bac-bd78-df2dbf10a6c1" />
 
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## Resources
-
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-- [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
+Thank you  Dr.R Jayagowri and IEEE EDS B.M.S Collece of Engineering  for the support and guidance.

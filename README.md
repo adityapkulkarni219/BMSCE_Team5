@@ -3,8 +3,10 @@
 # Tiny Tapeout 4-Bit Shift Register Verilog Project
 
 A 4-bit Shift Register was designed and implemented as part of the Tiny Tapeout project using Verilog HDL. The design supports serial data input and synchronous clock-driven shifting, enabling storage and transfer of 4-bit data sequences. It was synthesized and verified through simulation to ensure correct functionality, including reset operation and proper shifting behavior.
+
 ## Block Diagram
 <img width="1536" height="1024" alt="Block diagram" src="https://github.com/user-attachments/assets/e8a98752-10a3-415d-bce5-242682052ae5" />
+
 ## Input's and Output's
 The shift register has:
 •	Inputs:
